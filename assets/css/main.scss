@@ -16,9 +16,11 @@ header {
     display: flex;
     z-index: 999;
     background-color: #202020;
+    position: relative;
 
     .general-nav {
         background-color: #202020;
+        z-index: 999;
 
         img {
             margin-right: 64px;
@@ -55,17 +57,21 @@ header {
 
 .one {
     position: relative;
+    width: 100%;
+    bottom: 100px;
 
     .firstim {
         position: absolute;
         background-color: #202020;
-        width: 1440px;
+
         height: 850px;
         mix-blend-mode: luminosity;
+        width: 100%;
     }
 
     .texts {
         position: absolute;
+        margin-left: 230px;
 
         .text1 {
             width: 786px;
@@ -170,19 +176,364 @@ header {
     }
 }
 
-.two{
+.two {
+    margin-top: 867px;
 
-    .photo{
+    .photo {
         position: relative;
 
-       .secondim{
-        position: absolute;
-       }
+        .secondim {
+            position: absolute;
+        }
 
-       .thirdim{
-        position: absolute;
-        margin-left: 234px;
-        margin-top: 186px;
-       }
+        .thirdim {
+            position: absolute;
+            margin-left: 234px;
+            margin-top: 186px;
+        }
+    }
+
+    .texts2 {
+        .general-two {
+            display: flex;
+
+            hr {
+                width: 143px;
+                height: 0px;
+                left: 617px;
+                top: 13px;
+                border: 2px solid #D8D8D8;
+            }
+
+            .text1 {
+                width: 181px;
+                height: 26px;
+                left: 772px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 155%;
+                text-align: justify;
+                letter-spacing: 0.03em;
+                color: #FF3839;
+                margin-top: 4px;
+                margin-left: 12px;
+
+                span {
+                    width: 181px;
+                    height: 26px;
+                    left: 772px;
+                    top: 0px;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 155%;
+                    text-align: justify;
+                    letter-spacing: 0.03em;
+                    color: #696969;
+                }
+            }
+        }
+
+        .text2 {
+            width: 534px;
+            height: 120px;
+            left: 617px;
+            top: 45px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 125.5%;
+            letter-spacing: 0.03em;
+            color: #000000;
+
+            span {
+                width: 534px;
+                height: 120px;
+                left: 617px;
+                top: 45px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 125.5%;
+                letter-spacing: 0.03em;
+                color: #FF3839;
+            }
+        }
+
+        .text3 {
+            width: 534px;
+            left: 617px;
+            top: 196px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 155%;
+            text-align: justify;
+            letter-spacing: 0.03em;
+            color: #696969;
+        }
+
+        .text4 {
+            width: 534px;
+            left: 617px;
+            margin-top: 25px;
+            margin-bottom: 50px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 155%;
+            text-align: justify;
+            letter-spacing: 0.03em;
+            color: #696969;
+        }
+
+        button {
+            width: 181px;
+            height: 48px;
+            background: #FF3839;
+            border-radius: 5px;
+            left: 33.7%;
+            right: 34.25%;
+            top: 25%;
+            bottom: 25%;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: #FFFFFF;
+            border: none;
+        }
+    }
+}
+
+.three {
+    background-color: #202020;
+    margin-top: 112px;
+
+    .texts3 {
+        margin-top: 102px;
+
+        .general-three {
+            display: flex;
+
+            hr {
+                width: 143px;
+                height: 0px;
+                left: 136px;
+                top: 133px;
+                border: 2px solid #D8D8D8;
+            }
+
+            .text1 {
+                width: 242px;
+                height: 26px;
+                left: 291px;
+                top: 120px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 155%;
+                text-align: justify;
+                letter-spacing: 0.03em;
+                color: #F8F8F8;
+                margin-top: 4px;
+                margin-left: 12px;
+
+                span {
+                    width: 242px;
+                    height: 26px;
+                    left: 291px;
+                    top: 120px;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 155%;
+                    text-align: justify;
+                    letter-spacing: 0.03em;
+                    color: #FF3839;
+                }
+            }
+        }
+
+        .text2 {
+            width: 443px;
+            height: 120px;
+            left: 136px;
+            top: 165px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 125.5%;
+            letter-spacing: 0.03em;
+            color: #FF3839;
+
+            span {
+                width: 443px;
+                height: 120px;
+                left: 136px;
+                top: 165px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 125.5%;
+                letter-spacing: 0.03em;
+                color: #F8F8F8;
+            }
+        }
+
+        .text3 {
+            width: 534px;
+            height: 127px;
+            left: 136px;
+            top: 308px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 155%;
+            text-align: justify;
+            letter-spacing: 0.03em;
+            color: #FFFFFF;
+        }
+
+        button {
+            width: 181px;
+            height: 48px;
+            background: #FF3839;
+            border-radius: 5px;
+            left: 33.7%;
+            right: 34.25%;
+            top: 25%;
+            bottom: 25%;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: #FFFFFF;
+            border: none;
+        }
+    }
+
+    .frames {
+        margin-top: 102px;
+
+        .card12 {
+            display: flex;
+            margin-left: 200px;
+
+
+            .card1 {
+
+                .icon1 {
+                    width: 82px;
+                    height: 82px;
+                    left: 1133px;
+                    top: 102px;
+                    background: #FF3839;
+                    border: 3px solid #FFFFFF;
+                    border-radius: 50%;
+                }
+
+                .fram1 {
+                    width: 263px;
+                    height: 168px;
+                    left: 759px;
+                    top: 372px;
+                    background: #FFFFFF;
+                    border-radius: 5px;
+                }
+            }
+
+            .card2 {
+                margin-left: 20px;
+
+                .icon2 {
+                    width: 82px;
+                    height: 82px;
+                    left: 1133px;
+                    top: 102px;
+                    background: #FF3839;
+                    border: 3px solid #FFFFFF;
+                    border-radius: 50%;
+                }
+
+                .fram2 {
+                    width: 263px;
+                    height: 168px;
+                    left: 759px;
+                    top: 372px;
+                    background: #FFFFFF;
+                    border-radius: 5px;
+                }
+            }
+        }
+
+        .card34 {
+            display: flex;
+            margin-left: 200px;
+            margin-top: 20px;
+
+            .card3 {
+
+                .icon3 {
+                    width: 82px;
+                    height: 82px;
+                    left: 1133px;
+                    top: 102px;
+                    background: #FF3839;
+                    border: 3px solid #FFFFFF;
+                    border-radius: 50%;
+                }
+
+                .fram3 {
+                    width: 263px;
+                    height: 168px;
+                    left: 759px;
+                    top: 372px;
+                    background: #FFFFFF;
+                    border-radius: 5px;
+                }
+            }
+
+            .card4 {
+                margin-left: 20px;
+
+                .icon4 {
+                    width: 82px;
+                    height: 82px;
+                    left: 1133px;
+                    top: 102px;
+                    background: #FF3839;
+                    border: 3px solid #FFFFFF;
+                    border-radius: 50%;
+                }
+
+                .fram4 {
+                    width: 263px;
+                    height: 168px;
+                    left: 759px;
+                    top: 372px;
+                    background: #FFFFFF;
+                    border-radius: 5px;
+                }
+            }
+        }
     }
 }

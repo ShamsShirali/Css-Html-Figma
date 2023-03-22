@@ -14,9 +14,11 @@ header {
   display: flex;
   z-index: 999;
   background-color: #202020;
+  position: relative;
 }
 header .general-nav {
   background-color: #202020;
+  z-index: 999;
 }
 header .general-nav img {
   margin-right: 64px;
@@ -47,16 +49,19 @@ header .general-nav button {
 
 .one {
   position: relative;
+  width: 100%;
+  bottom: 100px;
 }
 .one .firstim {
   position: absolute;
   background-color: #202020;
-  width: 1440px;
   height: 850px;
   mix-blend-mode: luminosity;
+  width: 100%;
 }
 .one .texts {
   position: absolute;
+  margin-left: 230px;
 }
 .one .texts .text1 {
   width: 786px;
@@ -152,6 +157,9 @@ header .general-nav button {
   margin-left: 19px;
 }
 
+.two {
+  margin-top: 867px;
+}
 .two .photo {
   position: relative;
 }
@@ -162,4 +170,308 @@ header .general-nav button {
   position: absolute;
   margin-left: 234px;
   margin-top: 186px;
+}
+.two .texts2 .general-two {
+  display: flex;
+}
+.two .texts2 .general-two hr {
+  width: 143px;
+  height: 0px;
+  left: 617px;
+  top: 13px;
+  border: 2px solid #D8D8D8;
+}
+.two .texts2 .general-two .text1 {
+  width: 181px;
+  height: 26px;
+  left: 772px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 155%;
+  text-align: justify;
+  letter-spacing: 0.03em;
+  color: #FF3839;
+  margin-top: 4px;
+  margin-left: 12px;
+}
+.two .texts2 .general-two .text1 span {
+  width: 181px;
+  height: 26px;
+  left: 772px;
+  top: 0px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 155%;
+  text-align: justify;
+  letter-spacing: 0.03em;
+  color: #696969;
+}
+.two .texts2 .text2 {
+  width: 534px;
+  height: 120px;
+  left: 617px;
+  top: 45px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125.5%;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.two .texts2 .text2 span {
+  width: 534px;
+  height: 120px;
+  left: 617px;
+  top: 45px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125.5%;
+  letter-spacing: 0.03em;
+  color: #FF3839;
+}
+.two .texts2 .text3 {
+  width: 534px;
+  left: 617px;
+  top: 196px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  text-align: justify;
+  letter-spacing: 0.03em;
+  color: #696969;
+}
+.two .texts2 .text4 {
+  width: 534px;
+  left: 617px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  text-align: justify;
+  letter-spacing: 0.03em;
+  color: #696969;
+}
+.two .texts2 button {
+  width: 181px;
+  height: 48px;
+  background: #FF3839;
+  border-radius: 5px;
+  left: 33.7%;
+  right: 34.25%;
+  top: 25%;
+  bottom: 25%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  border: none;
+}
+
+.three {
+  background-color: #202020;
+  margin-top: 112px;
+}
+.three .texts3 {
+  margin-top: 102px;
+}
+.three .texts3 .general-three {
+  display: flex;
+}
+.three .texts3 .general-three hr {
+  width: 143px;
+  height: 0px;
+  left: 136px;
+  top: 133px;
+  border: 2px solid #D8D8D8;
+}
+.three .texts3 .general-three .text1 {
+  width: 242px;
+  height: 26px;
+  left: 291px;
+  top: 120px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 155%;
+  text-align: justify;
+  letter-spacing: 0.03em;
+  color: #F8F8F8;
+  margin-top: 4px;
+  margin-left: 12px;
+}
+.three .texts3 .general-three .text1 span {
+  width: 242px;
+  height: 26px;
+  left: 291px;
+  top: 120px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 155%;
+  text-align: justify;
+  letter-spacing: 0.03em;
+  color: #FF3839;
+}
+.three .texts3 .text2 {
+  width: 443px;
+  height: 120px;
+  left: 136px;
+  top: 165px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125.5%;
+  letter-spacing: 0.03em;
+  color: #FF3839;
+}
+.three .texts3 .text2 span {
+  width: 443px;
+  height: 120px;
+  left: 136px;
+  top: 165px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125.5%;
+  letter-spacing: 0.03em;
+  color: #F8F8F8;
+}
+.three .texts3 .text3 {
+  width: 534px;
+  height: 127px;
+  left: 136px;
+  top: 308px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  text-align: justify;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+.three .texts3 button {
+  width: 181px;
+  height: 48px;
+  background: #FF3839;
+  border-radius: 5px;
+  left: 33.7%;
+  right: 34.25%;
+  top: 25%;
+  bottom: 25%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  border: none;
+}
+.three .frames {
+  margin-top: 102px;
+}
+.three .frames .card12 {
+  display: flex;
+  margin-left: 200px;
+}
+.three .frames .card12 .card1 .icon1 {
+  width: 82px;
+  height: 82px;
+  left: 1133px;
+  top: 102px;
+  background: #FF3839;
+  border: 3px solid #FFFFFF;
+  border-radius: 50%;
+}
+.three .frames .card12 .card1 .fram1 {
+  width: 263px;
+  height: 168px;
+  left: 759px;
+  top: 372px;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+.three .frames .card12 .card2 {
+  margin-left: 20px;
+}
+.three .frames .card12 .card2 .icon2 {
+  width: 82px;
+  height: 82px;
+  left: 1133px;
+  top: 102px;
+  background: #FF3839;
+  border: 3px solid #FFFFFF;
+  border-radius: 50%;
+}
+.three .frames .card12 .card2 .fram2 {
+  width: 263px;
+  height: 168px;
+  left: 759px;
+  top: 372px;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+.three .frames .card34 {
+  display: flex;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+.three .frames .card34 .card3 .icon3 {
+  width: 82px;
+  height: 82px;
+  left: 1133px;
+  top: 102px;
+  background: #FF3839;
+  border: 3px solid #FFFFFF;
+  border-radius: 50%;
+}
+.three .frames .card34 .card3 .fram3 {
+  width: 263px;
+  height: 168px;
+  left: 759px;
+  top: 372px;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+.three .frames .card34 .card4 {
+  margin-left: 20px;
+}
+.three .frames .card34 .card4 .icon4 {
+  width: 82px;
+  height: 82px;
+  left: 1133px;
+  top: 102px;
+  background: #FF3839;
+  border: 3px solid #FFFFFF;
+  border-radius: 50%;
+}
+.three .frames .card34 .card4 .fram4 {
+  width: 263px;
+  height: 168px;
+  left: 759px;
+  top: 372px;
+  background: #FFFFFF;
+  border-radius: 5px;
 }/*# sourceMappingURL=main.css.map */
