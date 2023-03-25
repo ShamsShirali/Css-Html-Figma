@@ -5,8 +5,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
     <title>Document</title>
 </head>
 
@@ -18,7 +22,7 @@
             <nav class="navbar navbar-expand-lg ">
                 <div class="container-fluid general-nav">
                     <img src="assets/img/Group 3.png" alt="">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    <button class="burger navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -48,7 +52,7 @@
                             </li>
                         </ul>
                         <form class="d-flex" role="search">
-                            <button class="btn btn-outline-success" type="submit">Contact Us</button>
+                            <button class="but1 btn btn-outline-success" type="submit">Contact Us</button>
                         </form>
                     </div>
                 </div>
@@ -80,12 +84,12 @@
     <section class="two">
         <div class="container">
             <div class="row">
-                <div class="col-7 photo">
+                <div class="col-12 col-lg-7 photo">
                     <img class="secondim" src="assets/img/Rectangle 11.png" alt="">
                     <img class="thirdim" src="assets/img/Rectangle 12.png" alt="">
                 </div>
 
-                <div class="col-5 texts2">
+                <div class="col-12 col-lg-5 texts2">
                     <div class="general-two">
                         <hr />
                         <p class="text1">About <span>CanvasLancer</span></p>
@@ -106,7 +110,7 @@
     <section class="three">
         <div class="container">
             <div class="row">
-                <div class="col-4 texts3">
+                <div class="col-12 col-lg-4 texts3">
                     <div class="general-three">
                         <hr />
                         <p class="text1">What We Are <span>Offering</span></p>
@@ -119,19 +123,17 @@
                     <button>Hire Us</button>
                 </div>
 
-                <div class="col-8 frames">
+                <div class="col-12 col-lg-8 frames">
                     <div class="card12">
                         <div class="card1">
                             <div class="icon1">
                                 <img src="assets/img/Wireframing.png" alt="">
                             </div>
 
-                            <div class="card-body fram1">
-                                <p class="card-title">Card title</p>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                            </div>
+                            <p class="card-title text1">UI/UX</p>
+                            <p class="card-text text2">Lorem ipsum dolor sit amet consectetur. Adipiscing nisl id at
+                                arcu enim id gravida pulvinar. Tristique</p>
+
                         </div>
 
                         <div class="card2">
@@ -139,12 +141,9 @@
                                 <img src="assets/img/Group 6.png" alt="">
                             </div>
 
-                            <div class="card-body fram2">
-                                <p class="card-title">Card title</p>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of
-                                    the card's content.</p>
-                            </div>
+                            <p class="card-title text1">Development</p>
+                            <p class="card-text text2">Lorem ipsum dolor sit amet consectetur. Adipiscing nisl id at
+                                arcu enim id gravida pulvinar. Tristique</p>
                         </div>
                     </div>
 
@@ -154,12 +153,9 @@
                                 <img src="assets/img/UX-UI.png" alt="">
                             </div>
 
-                            <div class="card-body fram3">
-                                <p class="card-title">Card title</p>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                            </div>
+                            <p class="card-title text1">Mobile Development</p>
+                            <p class="card-text text2">Lorem ipsum dolor sit amet consectetur. Adipiscing nisl id at
+                                arcu enim id gravida pulvinar. Tristique</p>
                         </div>
 
                         <div class="card4">
@@ -167,12 +163,9 @@
                                 <img src="assets/img/Speed.png" alt="">
                             </div>
 
-                            <div class="card-body fram4">
-                                <p class="card-title">Card title</p>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of
-                                    the card's content.</p>
-                            </div>
+                            <p class="card-title text1">SEO</p>
+                            <p class="card-text text2">Lorem ipsum dolor sit amet consectetur. Adipiscing nisl id at
+                                arcu enim id gravida pulvinar. Tristique</p>
                         </div>
                     </div>
                 </div>
@@ -182,6 +175,288 @@
             </div>
         </div>
     </section>
+
+    <section class="four">
+        <div class="container">
+            <div class="general-four">
+                <div class="texts4">
+                    <hr />
+                    <span>Our Portfolio</span>
+                    <hr />
+                </div>
+
+                <p>Projects <span>We Have Completed</span></p>
+
+                <div class="buts">
+                    <button class="but1">All</button>
+                    <button class="but2">UI/UX</button>
+                    <button class="but3">Development</button>
+                    <button class="but4">Mobile Development</button>
+                    <button class="but5">SEO</button>
+                </div>
+
+                <div class="photo">
+                    <img class="img1" src="assets/img/Rectangle 15.png" alt="">
+                    <img class="img2" src="assets/img/Rectangle 16.png" alt="">
+                    <img class="img3" src="assets/img/Rectangle 17.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="five">
+        <div class="container">
+            <div class="general-hr">
+                <div class="row">
+                    <div class="col-6 generalh1">
+                        <hr />
+
+                        <p>Customer <span>Feedback</span></p>
+                    </div>
+
+                    <div class="col-6 generalh2">
+                        <hr />
+
+                        <div class="square"></div>
+                        <div class="orange"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+                </div>
+            </div>
+
+            <p>What Our <span class="text1">Customer </span> <span class="text2">Say About Us</span></p>
+
+            <div class="cards">
+                <div class="row">
+                    <div class="col-lg-4 card1">
+                        <div class="icon1">
+                            <img src="assets/img/“.png" alt="">
+                        </div>
+
+                        <div class="stars">
+                            <img src="assets/img/Star 1.png" alt="">
+                            <img src="assets/img/Star 1.png" alt="">
+                            <img src="assets/img/Star 1.png" alt="">
+                            <img src="assets/img/Star 1.png" alt="">
+                            <img src="assets/img/Star 1.png" alt="">
+                        </div>
+
+                        <p class="card-title text2">Name Here</p>
+                        <p class="card-text text3">Lorem ipsum dolor sit amet consectetur. Nisi ullamcorper tincidunt
+                            odio arcu id praesent vitae. Facilisis vitae fringilla donec</p>
+                    </div>
+
+                    <div class="col-lg-4 card2">
+                        <div class="icon1">
+                            <img src="assets/img/“.png" alt="">
+                        </div>
+
+                        <div class="stars">
+                            <img src="assets/img/Star 1.png" alt="">
+                            <img src="assets/img/Star 1.png" alt="">
+                            <img src="assets/img/Star 1.png" alt="">
+                            <img src="assets/img/Star 1.png" alt="">
+                            <img src="assets/img/Star 1.png" alt="">
+                        </div>
+
+                        <p class="card-title text2">Name Here</p>
+                        <p class="card-text text3">Lorem ipsum dolor sit amet consectetur. Nisi ullamcorper tincidunt
+                            odio arcu id praesent vitae. Facilisis vitae fringilla donec</p>
+                    </div>
+
+                    <div class="col-lg-4 card3">
+                        <div class="icon1">
+                            <img src="assets/img/“.png" alt="">
+                        </div>
+
+                        <div class="stars">
+                            <img src="assets/img/Star 1.png" alt="">
+                            <img src="assets/img/Star 1.png" alt="">
+                            <img src="assets/img/Star 1.png" alt="">
+                            <img src="assets/img/Star 1.png" alt="">
+                            <img src="assets/img/Star 1.png" alt="">
+                        </div>
+
+                        <p class="card-title text2">Name Here</p>
+                        <p class="card-text text3">Lorem ipsum dolor sit amet consectetur. Nisi ullamcorper tincidunt
+                            odio arcu id praesent vitae. Facilisis vitae fringilla donec</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="six">
+        <div class="container">
+            <div class="texts6">
+                <hr />
+                <span>FAQs</span>
+                <hr />
+            </div>
+
+            <p>Frequently Asked <span>Questions</span></p>
+
+            <div class="desk1">
+                <div>Lorem ipsum dolor sit amet consectetur. At bibendum ?</div>
+                <img src="assets/img/Vector.png" alt="">
+            </div>
+
+            <div class="text5">Lorem ipsum dolor sit amet consectetur. In lacus tempus pretium lacus enim tincidunt
+                posuere. Posuere nec erat risus tincidunt volutpat sit vivamus pharetra senectus. Ipsum dui feugiat mi
+                tellus accumsan varius est. Egestas eget purus sed proin et odio elementum congue.</div>
+
+            <div class="desk2">
+                <div>Lorem ipsum dolor sit amet consectetur. At bibendum ?</div>
+                <img src="assets/img/ic.png" alt="">
+            </div>
+
+            <div class="desk2">
+                <div>Lorem ipsum dolor sit amet consectetur. At bibendum ?</div>
+                <img src="assets/img/ic.png" alt="">
+            </div>
+
+            <div class="desk2">
+                <div>Lorem ipsum dolor sit amet consectetur. At bibendum ?</div>
+                <img src="assets/img/ic.png" alt="">
+            </div>
+
+            <div class="desk2">
+                <div>Lorem ipsum dolor sit amet consectetur. At bibendum ?</div>
+                <img src="assets/img/ic.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="seven">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 text7">
+                    <div class="general-hr">
+                        <hr />
+                        <p>Contact Us</p>
+                    </div>
+
+                    <p class="text1">Contact <span>Us & We Can Work Together</span></p>
+
+                    <p class="text2">Lorem ipsum dolor sit amet consectetur. Adipiscing nisl id at arcu enim id gravida
+                        pulvinar. Tristique consectetur mi curabitur congue enim dignissim </p>
+
+                    <input type="name" class="name" placeholder="Your Name" required="required">
+                    <input type="name" class="email" placeholder="Your Email" required="required">
+                    <input type="name" class="message" placeholder="Your Message" required="required">
+
+                    <button>Submit Message</button>
+                </div>
+
+                <div class="col-12 col-lg-6 photo">
+                    <img src="assets/img/Group 1 10.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="general-footer">
+                <div class="row">
+                    <div class="col-12 col-lg-4 first">
+                        <img class="im1" src="assets/img/Group 3.png" alt="">
+
+                        <p>Lorem ipsum dolor sit amet consectetur. Scelerisque vitae et vitae suspendisse vulputate
+                            vestibulum tortor nisl cursus. Egestas nulla in </p>
+
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a class="ps-2" href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a class="ps-2" href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+
+                        <a class="ps-2" href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-lg-2 second">
+                        <p class="title">Services</p>
+
+                        <div class="informs">
+                            <p class="inform">UI/UX</p>
+                            <p class="inform">Website Dev</p>
+                            <p class="inform">Mobile Dev</p>
+                            <p class="inform">SEO</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-2 third">
+                        <p class="title">Resources</p>
+
+                        <div class="informs">
+                            <p class="inform">Compliance</p>
+
+                            <div class="word">
+                                <p class="inform">Case </p>
+                                <p class="inform ps-2">Studies</p>
+                            </div>
+
+                            <p class="inform">Webinars</p>
+                            <p class="inform">Developers</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 fourth">
+                        <div class="general-title">
+                            <p class="title">Contact</p>
+                            <p class="title">Information</p>
+                        </div>
+
+                        <div class="informs">
+                            <div class="firstic">
+                                <i class="fa-regular fa-envelope"></i>
+                                <p class="inform">canvaslancer@gmail.com</p>
+                            </div>
+
+                            <div class="secondic">
+                                <i class="fa-solid fa-phone"></i>
+                                <p class="inform">+00012345678</p>
+                            </div>
+
+                            <div class="word">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <p class="inform">Lorem</p>
+                                <p class="inform ps-2">Ipsum</p>
+                                <p class="inform ps-2">Dummy</p>
+                                <p class="inform ps-2">text</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hori"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 leftp">
+                    <p>Copyright ⓒ Canvas Lancer, 2023. All rights reserved.</p>
+                </div>
+
+                <div class="col-12 col-lg-6 rightp">
+                    <p>Website Terms</p>
+                    <p>Privacy Policy</p>
+                    <p>Cookies Policy</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"

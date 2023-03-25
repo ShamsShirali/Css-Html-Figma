@@ -1,0 +1,542 @@
+@media only screen and (max-width:576px) {
+
+    .container {
+        max-width: 540px;
+    }
+
+    .general-nav {
+
+
+        .burger {
+            margin-left: 3px;
+            width: 50px;
+        }
+
+        img {
+            width: 185px;
+            margin-left: 120px;
+            padding-top: 10px;
+        }
+
+        .but1 {
+            margin-left: 2px;
+        }
+    }
+
+    .one {
+
+        .firstim {
+            max-width: 576px;
+        }
+
+        .texts {
+            margin-left: 60px;
+
+            .text1 {
+
+                font-size: 10px !important;
+                width: 1000px;
+                padding-right: 650px;
+            }
+
+            .text2 {
+                font-size: 30px;
+                width: 400px;
+                height: 70px;
+            }
+
+            hr {
+                width: 250px;
+                margin-left: 78px;
+            }
+
+            .text3 {
+                font-size: 10px;
+                width: 340px;
+            }
+
+            .but1 {
+                width: 120px;
+                height: 40px;
+                margin-left: 50px;
+                font-size: 14px;
+                margin-top: 20px;
+            }
+
+            .but2 {
+                width: 120px;
+                height: 40px;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .two {
+
+        .photo {
+
+            .secondim {
+                width: 300px;
+                margin-left: 20px;
+            }
+
+            .thirdim {
+                width: 250px;
+                margin-left: 190px;
+                margin-top: 150px;
+            }
+        }
+
+        .texts2 {
+            margin-top: 500px;
+
+            .general-two {
+                margin-left: 90px;
+            }
+
+            .text2 {
+                font-size: 40px;
+
+                span {
+                    font-size: 40px;
+                }
+            }
+
+            .text3 {
+                width: 400px;
+                font-size: 13px;
+            }
+
+            .text4 {
+                width: 400px;
+                font-size: 13px;
+            }
+        }
+    }
+
+    .three {
+
+        .texts3 {
+
+            .general-three {
+                margin-left: 55px;
+            }
+
+            .text2 {
+                font-size: 40px;
+
+                span {
+                    font-size: 40px;
+                }
+            }
+
+            .text3 {
+                width: 400px;
+                font-size: 13px;
+            }
+        }
+
+        .frames {
+
+            .card12 {
+                display: flex;
+                flex-wrap: wrap;
+                margin-left: 90px;
+
+                .card2 {
+                    margin-top: 70px;
+                    margin-left: 0;
+                }
+            }
+
+            .card34 {
+                display: flex;
+                flex-wrap: wrap;
+                margin-left: 70px;
+
+                .card4 {
+                    margin-top: 70px;
+                }
+            }
+        }
+    }
+
+    .four {
+
+        .general-four {
+
+            .texts4 {
+                margin-left: 70px;
+
+                hr {
+                    width: 90px;
+                }
+            }
+
+            p {
+                font-size: 40px;
+                margin-left: 20px;
+
+                span {
+                    font-size: 40px;
+                    height: 20px;
+                }
+            }
+
+            .buts {
+                margin-left: 120px;
+                display: flex;
+                flex-direction: column;
+
+                .but1 {
+                    margin-bottom: 20px;
+                    margin-left: 70px;
+                }
+
+                .but2 {
+                    margin-bottom: 20px;
+                    margin-left: 61px;
+                }
+
+                .but3 {
+                    margin-bottom: 20px;
+                    margin-left: 31px;
+                }
+
+                .but4 {
+                    margin-bottom: 20px;
+                }
+
+                .but5 {
+                    margin-bottom: 50px;
+                    margin-left: 70px;
+                }
+            }
+
+            .photo {
+
+                .img1 {
+                    width: 130px;
+                }
+
+                .img2 {
+                    width: 130px;
+                    margin-top: 30px;
+                    margin-left: 7px;
+                }
+
+                .img3 {
+                    width: 130px;
+                    margin-left: 7px;
+                }
+            }
+        }
+
+
+    }
+
+    .five {
+
+        .general-hr {
+
+            .generalh1 {
+
+                hr {
+                    width: 90px;
+                }
+
+                p {
+                    font-size: 11px;
+                    margin-left: 5px;
+                    padding-top: 5px;
+
+                    span {
+                        font-size: 11px;
+                    }
+                }
+            }
+
+            .generalh2 {
+
+                hr {
+                    width: 70px;
+                    margin-left: 20px;
+                    margin-right: 5px;
+                }
+
+                .square {
+                    width: 8px;
+                    height: 8px;
+                }
+
+                .orange {
+                    width: 8px;
+                    height: 8px;
+                }
+            }
+        }
+
+        p {
+            font-size: 25px;
+            width: 300px;
+            height: 100px;
+
+            .text1 {
+                font-size: 25px;
+            }
+
+            .text2 {
+                font-size: 25px;
+            }
+        }
+
+        .cards {
+
+            .card1 {
+                margin-top: 30px;
+                width: 260px;
+                height: 160px;
+                margin-left: 80px;
+
+                .icon1 {
+                    width: 75px;
+                    height: 75px;
+                    font-size: 55px;
+                    left: 98px;
+
+                    img {
+                        padding-bottom: 5px;
+                    }
+                }
+
+                .text2 {
+                    padding-left: 10px;
+                    padding-top: 45px;
+                }
+
+                .stars {
+                    margin-top: 70px;
+                    margin-left: 63px;
+                }
+
+                .text3 {
+                    font-size: 8px;
+                    width: 225px;
+                    padding-top: 65px;
+                }
+            }
+
+            .card2 {
+                margin-bottom: 30px;
+                margin-top: -50px;
+                width: 260px;
+                height: 160px;
+                margin-left: 80px;
+
+                .icon1 {
+                    width: 75px;
+                    height: 75px;
+                    font-size: 55px;
+                    left: 98px;
+
+                    img {
+                        padding-bottom: 5px;
+                    }
+                }
+
+                .text2 {
+                    padding-left: 10px;
+                    padding-top: 45px;
+                }
+
+                .stars {
+                    margin-top: 70px;
+                    margin-left: 63px;
+                }
+
+                .text3 {
+                    font-size: 8px;
+                    width: 225px;
+                    padding-top: 65px;
+                }
+            }
+
+            .card3 {
+                margin-top: 30px;
+                margin-bottom: 30px;
+                width: 260px;
+                height: 160px;
+                margin-left: 80px;
+
+                .icon1 {
+                    width: 75px;
+                    height: 75px;
+                    font-size: 55px;
+                    left: 98px;
+
+                    img {
+                        padding-bottom: 5px;
+                    }
+                }
+
+                .text2 {
+                    padding-left: 10px;
+                    padding-top: 45px;
+                }
+
+                .stars {
+                    margin-top: 70px;
+                    margin-left: 63px;
+                }
+
+                .text3 {
+                    font-size: 8px;
+                    width: 225px;
+                    padding-top: 65px;
+                }
+            }
+        }
+    }
+
+    .six {
+
+        .texts6 {
+            margin-left: 70px;
+
+            hr {
+                width: 90px;
+            }
+
+        }
+
+        p {
+            font-size: 38px;
+            margin-left: 20px;
+            width: 370px;
+
+            span {
+                font-size: 38px;
+                height: 20px;
+            }
+        }
+
+        .desk1 {
+            width: 430px;
+            height: 50px;
+            margin-left: 0;
+            margin-top: 40px;
+
+            div {
+                width: 400px;
+                height: 5px;
+                font-size: 10px;
+                padding-top: 15px;
+                padding-left: 20px;
+            }
+
+            img {
+                width: 20px;
+                height: 10px;
+                margin-left: 0;
+                margin-top: 20px;
+            }
+        }
+
+        .text5 {
+            font-size: 10px;
+            width: 423px;
+            margin-left: 18px;
+            margin-top: 10px;
+        }
+
+        .desk2 {
+            width: 430px;
+            height: 50px;
+            margin-left: 0;
+
+            div {
+                width: 400px;
+                height: 5px;
+                font-size: 10px;
+                padding-top: 15px;
+                padding-left: 20px;
+            }
+
+            img {
+                width: 20px;
+                height: 10px;
+                margin-left: 0;
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .seven {
+
+        .text7 {
+
+            .general-hr {
+                margin-left: 200px;
+            }
+
+            .text1 {
+                width: 400px;
+                font-size: 35px;
+                height: 85px;
+
+                span {
+                    font-size: 35px;
+                }
+            }
+
+            .text2 {
+                width: 400px;
+                font-size: 13px;
+            }
+
+            .name {
+                width: 400px;
+                font-size: 13px;
+            }
+
+            .email {
+                width: 400px;
+                font-size: 13px;
+            }
+
+            .message {
+                width: 400px;
+                font-size: 13px;
+            }
+        }
+
+        .photo {
+
+            img {
+                width: 400px;
+            }
+        }
+    }
+
+    footer {
+
+        .general-footer {
+
+            .second {
+                padding-left: 30px;
+            }
+
+            .fourth {
+                padding-left: 30px;
+            }
+        }
+
+        .rightp {
+            margin-top: 15px;
+
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+}
