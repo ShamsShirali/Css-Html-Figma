@@ -1,3 +1,1865 @@
+@media only screen and (max-width: 992px) {
+
+    .container {
+        max-width: 960px;
+    }
+
+    .general-nav {
+
+
+        .burger {
+            margin-left: 3px;
+            width: 120px;
+        }
+
+        img {
+            width: 195px;
+            margin-left: 320px;
+            padding-top: 10px;
+        }
+
+        .but1 {
+            margin-left: 2px;
+        }
+    }
+
+    .one {
+
+        .firstim {
+            max-width: 992px;
+        }
+
+        .texts {
+            margin-left: 190px;
+
+            .text1 {
+
+                font-size: 16px;
+                width: 1000px;
+                padding-right: 500px;
+            }
+
+            .text2 {
+                font-size: 50px;
+                width: 600px;
+                height: 112px;
+            }
+
+            hr {
+                width: 400px;
+                margin-left: 130px;
+            }
+
+            .text3 {
+                font-size: 12px;
+                width: 540px;
+            }
+
+            .but1 {
+                width: 175px;
+                height: 43px;
+                margin-left: 75px;
+                font-size: 15px;
+                margin-top: 40px;
+            }
+
+            .but2 {
+                width: 175px;
+                height: 43px;
+                font-size: 15px;
+            }
+        }
+    }
+
+    .two {
+
+        .photo {
+
+            .secondim {
+                width: 550px;
+                margin-left: 40px;
+            }
+
+            .thirdim {
+                width: 500px;
+                margin-left: 330px;
+                margin-top: 260px;
+            }
+        }
+
+        .texts2 {
+            margin-top: 900px;
+
+            .general-two {
+                margin-left: 430px;
+            }
+
+            .text2 {
+                font-size: 48px;
+                margin-left: 20px;
+
+                span {
+                    font-size: 48px;
+                }
+            }
+
+            .text3 {
+                width: 520px;
+                font-size: 15px;
+                margin-left: 20px;
+            }
+
+            .text4 {
+                width: 520px;
+                font-size: 15px;
+                margin-left: 20px;
+            }
+
+            button{
+                margin-left: 20px;
+            }
+        }
+    }
+
+    .three {
+
+        .texts3 {
+
+            .general-three {
+                margin-left: 430px;
+            }
+
+            .text2 {
+                font-size: 48px;
+                margin-left: 20px;
+
+                span {
+                    font-size: 48px;
+                    margin-left: 20px;
+                }
+            }
+
+            .text3 {
+                width: 520px;
+                font-size: 15px;
+                margin-left: 20px;
+            }
+
+            button{
+                margin-left: 20px;
+            }
+        }
+
+        .frames {
+
+            .card12 {
+                display: flex;
+                flex-wrap: wrap;
+                margin-left: 90px;
+
+                .card1{
+                    width: 300px;
+                    height: 200px;
+
+                    .icon1{
+                        width: 90px;
+                        height: 90px;
+                        left: 105px;
+                        padding-left: 18px;
+                        padding-top: 17px;
+                    }
+
+                    .text1{
+                        padding-left: 125px;
+                        padding-top: 70px;
+                    }
+
+                    .text2{
+                        width: 270px;
+                        padding-top: 40px;
+                        padding-left: 40px;
+                    }
+                }
+
+                .card2 {
+                    width: 300px;
+                    height: 200px;
+                    margin-top: 0;
+                    margin-left: 70px;
+
+                    .icon2{
+                        width: 90px;
+                        height: 90px;
+                        left: 105px;
+                        padding-left: 18px;
+                        padding-top: 17px;
+                    }
+
+                    .text1{
+                        padding-left: 95px;
+                        padding-top: 70px;
+                    }
+
+                    .text2{
+                        width: 270px;
+                        padding-top: 40px;
+                        padding-left: 40px;
+                    }
+                }
+            }
+
+            .card34 {
+                display: flex;
+                flex-wrap: wrap;
+                margin-left: 70px;
+
+                .card3{
+                    width: 300px;
+                    height: 200px;
+
+                    .icon3{
+                        width: 90px;
+                        height: 90px;
+                        left: 105px;
+                        padding-left: 18px;
+                        padding-top: 17px;
+                    }
+
+                    .text1{
+                        width: 250px;
+                        padding-left: 20px;
+                        padding-top: 70px;
+                    }
+
+                    .text2{
+                        width: 270px;
+                        padding-top: 40px;
+                        padding-left: 40px;
+                    }
+                }
+
+                .card4 {
+                    width: 300px;
+                    height: 200px;
+                    margin-top: 0;
+                    margin-left: 70px;
+
+                    .icon4{
+                        width: 90px;
+                        height: 90px;
+                        left: 105px;
+                        padding-left: 18px;
+                        padding-top: 17px;
+                    }
+
+                    .text1{
+                        padding-left: 125px;
+                        padding-top: 70px;
+                    }
+
+                    .text2{
+                        width: 270px;
+                        padding-top: 40px;
+                        padding-left: 40px;
+                    }
+                }
+            }
+        }
+    }
+
+    .four {
+
+        .general-four {
+
+            .texts4 {
+                margin-left: 220px;
+
+                hr {
+                    width: 160px;
+                }
+            }
+
+            p {
+                margin-left: 220px;
+
+                span {
+                    height: 20px;
+                }
+            }
+
+            .buts {
+                margin-left: 340px;
+                display: flex;
+                flex-direction: column;
+
+                .but1 {
+                    margin-bottom: 20px;
+                    margin-left: 70px;
+                }
+
+                .but2 {
+                    margin-bottom: 20px;
+                    margin-left: 61px;
+                }
+
+                .but3 {
+                    margin-bottom: 20px;
+                    margin-left: 31px;
+                }
+
+                .but4 {
+                    margin-bottom: 20px;
+                }
+
+                .but5 {
+                    margin-bottom: 50px;
+                    margin-left: 70px;
+                }
+            }
+
+            .photo {
+
+                .img1 {
+                    width: 280px;
+                    margin-left: -10px;
+                }
+
+                .img2 {
+                    width: 280px;
+                    margin-top: 40px;
+                    margin-left: 5px;
+                }
+
+                .img3 {
+                    width: 280px;
+                    margin-left: 5px;
+                }
+            }
+        }
+
+
+    }
+
+    .five {
+
+        .general-hr {
+
+            .generalh1 {
+
+                hr {
+                    width: 100px;
+                }
+
+                p {
+                    font-size: 15px;
+                    margin-left: 5px;
+                    padding-top: 4px;
+
+                    span {
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .generalh2 {
+
+                hr {
+                    width: 100px;
+                    margin-left: 200px;
+                    margin-right: 5px;
+                }
+
+                .square {
+                    width: 11px;
+                    height: 11px;
+                }
+
+                .orange {
+                    width: 11px;
+                    height: 11px;
+                }
+            }
+        }
+
+        p {
+            width: 600px;
+            height: 100px;
+        }
+
+        .cards {
+
+            .card1 {
+                margin-top: 70px;
+                width: 290px;
+                height: 160px;
+                margin-left: 110px;
+
+                .icon1 {
+                    width: 75px;
+                    height: 75px;
+                    font-size: 55px;
+                    left: 110px;
+
+                    img {
+                        padding-bottom: 5px;
+                    }
+                }
+
+                .text2 {
+                    padding-left: 30px;
+                    padding-top: 45px;
+                }
+
+                .stars {
+                    margin-top: 70px;
+                    margin-left: 73px;
+                }
+
+                .text3 {
+                    font-size: 8px;
+                    width: 250px;
+                    padding-top: 65px;
+                }
+            }
+
+            .card2 {
+                margin-top: 69px;
+                width: 290px;
+                height: 160px;
+                margin-left: 70px;
+
+                .icon1 {
+                    width: 75px;
+                    height: 75px;
+                    font-size: 55px;
+                    left: 110px;
+
+                    img {
+                        padding-bottom: 5px;
+                    }
+                }
+
+                .text2 {
+                    padding-left: 30px;
+                    padding-top: 45px;
+                }
+
+                .stars {
+                    margin-top: 70px;
+                    margin-left: 73px;
+                }
+
+                .text3 {
+                    font-size: 8px;
+                    width: 250px;
+                    padding-top: 65px;
+                }
+            }
+
+            .card3 {
+                margin-top: -20px;
+                margin-bottom: 30px;
+                width: 290px;
+                height: 160px;
+                margin-left: 290px;
+
+                .icon1 {
+                    width: 75px;
+                    height: 75px;
+                    font-size: 55px;
+                    left: 110px;
+
+                    img {
+                        padding-bottom: 5px;
+                    }
+                }
+
+                .text2 {
+                    padding-left: 30px;
+                    padding-top: 45px;
+                }
+
+                .stars {
+                    margin-top: 70px;
+                    margin-left: 73px;
+                }
+
+                .text3 {
+                    font-size: 8px;
+                    width: 250px;
+                    padding-top: 65px;
+                }
+            }
+        }
+    }
+
+    .six {
+
+        .texts6 {
+            margin-left: 220px;
+
+            hr {
+                width: 160px;
+            }
+
+        }
+
+        p {
+            font-size: 45px;
+            margin-left: 190px;
+            width: 450px;
+
+            span {
+                font-size: 45px;
+                height: 20px;
+            }
+        }
+
+        .desk1 {
+            width: 870px;
+            height: 70px;
+            margin-left: 30px;
+            margin-top: 40px;
+
+            div {
+                width: 820px;
+                height: 10px;
+                font-size: 15px;
+                padding-top: 20px;
+                padding-left: 20px;
+            }
+
+            img {
+                width: 25px;
+                height: 14px;
+                margin-left: 0;
+                margin-top: 21px;
+            }
+        }
+
+        .text5 {
+            font-size: 14px;
+            width: 860px;
+            margin-left: 47px;
+            margin-top: 10px;
+        }
+
+        .desk2 {
+            width: 870px;
+            height: 70px;
+            margin-left: 30px;
+
+            div {
+                width: 820px;
+                height: 10px;
+                font-size: 15px;
+                padding-top: 20px;
+                padding-left: 20px;
+            }
+
+            img {
+                width: 25px;
+                height: 14px;
+                margin-left: 0;
+                margin-top: 21px;
+            }
+        }
+    }
+
+    .seven {
+
+        .text7 {
+
+            .general-hr {
+                margin-left: 550px;
+            }
+
+            .text1 {
+                width: 600px;
+                height: 120px;
+                margin-left: 20px;
+            }
+
+            .text2 {
+                width: 550px;
+                height: 65px;
+                font-size: 15px;
+                margin-left: 20px;
+            }
+
+            .name {
+                width: 560px;
+                font-size: 15px;
+                margin-left: 20px;
+            }
+
+            .email {
+                width: 560px;
+                font-size: 15px;
+                margin-left: 20px;
+            }
+
+            .message {
+                width: 750px;
+                font-size: 15px;
+                margin-left: 20px;
+            }
+
+            button{
+                margin-left: 20px;
+            }
+        }
+
+        .photo {
+            margin-top: 40px;
+
+            img {
+                width: 800px;
+            }
+        }
+    }
+
+    footer {
+
+        .general-footer {
+
+            .first{
+
+                img{
+                    width: 600px;
+                }
+
+                p{
+                    width: 580px;
+                    font-size: 15px;
+                    margin-left: 10px;
+                }
+
+                a{
+                    margin-left: 10px;
+
+                    i{
+                        width: 45px;
+                        height: 45px;
+                        padding-left: 15px;
+                        padding-top: 15px;
+                    }
+                }
+            }
+
+            .second {
+                padding-left: 100px;
+
+                .informs{
+                    padding-top: 5px;
+                }
+            }
+
+            .third{
+
+                .informs{
+                    padding-top: 5px;
+                }
+            }
+
+            .fourth {
+                padding-left: 30px;
+            }
+        }
+
+        .leftp{
+            margin-left: 210px;
+        }
+        
+        .rightp {
+            margin-top: 20px;
+
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    .container {
+        max-width: 720px;
+    }
+
+    .general-nav {
+
+
+        .burger {
+            margin-left: 3px;
+            width: 90px;
+        }
+
+        img {
+            width: 195px;
+            margin-left: 220px;
+            padding-top: 10px;
+        }
+
+        .but1 {
+            margin-left: 2px;
+        }
+    }
+
+    .one {
+
+        .firstim {
+            max-width: 768px;
+        }
+
+        .texts {
+            margin-left: 160px;
+
+            .text1 {
+
+                font-size: 16px;
+                width: 1000px;
+                padding-right: 650px;
+            }
+
+            .text2 {
+                font-size: 35px;
+                width: 400px;
+                height: 70px;
+            }
+
+            hr {
+                width: 285px;
+                margin-left: 90px;
+            }
+
+            .text3 {
+                font-size: 12px;
+                width: 375px;
+            }
+
+            .but1 {
+                width: 170px;
+                height: 40px;
+                margin-left: 7px;
+                font-size: 14px;
+                margin-top: 40px;
+            }
+
+            .but2 {
+                width: 170px;
+                height: 40px;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .two {
+
+        .photo {
+
+            .secondim {
+                width: 450px;
+                margin-left: 20px;
+            }
+
+            .thirdim {
+                width: 400px;
+                margin-left: 250px;
+                margin-top: 220px;
+            }
+        }
+
+        .texts2 {
+            margin-top: 700px;
+
+            .general-two {
+                margin-left: 320px;
+            }
+
+            .text2 {
+                font-size: 48px;
+
+                span {
+                    font-size: 48px;
+                }
+            }
+
+            .text3 {
+                width: 520px;
+                font-size: 15px;
+            }
+
+            .text4 {
+                width: 520px;
+                font-size: 15px;
+            }
+        }
+    }
+
+    .three {
+
+        .texts3 {
+
+            .general-three {
+                margin-left: 330px;
+            }
+
+            .text2 {
+                font-size: 48px;
+
+                span {
+                    font-size: 48px;
+                }
+            }
+
+            .text3 {
+                width: 520px;
+                font-size: 15px;
+            }
+        }
+
+        .frames {
+
+            .card12 {
+                display: flex;
+                flex-wrap: wrap;
+                margin-left: 70px;
+
+                .card2 {
+                    margin-top: 0;
+                    margin-left: 15px;
+                }
+            }
+
+            .card34 {
+                display: flex;
+                flex-wrap: wrap;
+                margin-left: 50px;
+
+                .card4 {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+
+    .four {
+
+        .general-four {
+
+            .texts4 {
+                margin-left: 117px;
+
+                hr {
+                    width: 155px;
+                }
+            }
+
+            p {
+                font-size: 48px;
+                margin-left: 110px;
+
+                span {
+                    font-size: 48px;
+                    height: 20px;
+                }
+            }
+
+            .buts {
+                margin-left: 235px;
+                display: flex;
+                flex-direction: column;
+
+                .but1 {
+                    margin-bottom: 20px;
+                    margin-left: 70px;
+                }
+
+                .but2 {
+                    margin-bottom: 20px;
+                    margin-left: 61px;
+                }
+
+                .but3 {
+                    margin-bottom: 20px;
+                    margin-left: 31px;
+                }
+
+                .but4 {
+                    margin-bottom: 20px;
+                }
+
+                .but5 {
+                    margin-bottom: 50px;
+                    margin-left: 70px;
+                }
+            }
+
+            .photo {
+
+                .img1 {
+                    width: 210px;
+                    margin-left: -10px;
+                }
+
+                .img2 {
+                    width: 210px;
+                    margin-top: 30px;
+                    margin-left: 5px;
+                }
+
+                .img3 {
+                    width: 210px;
+                    margin-left: 5px;
+                }
+            }
+        }
+
+
+    }
+
+    .five {
+
+        .general-hr {
+
+            .generalh1 {
+
+                hr {
+                    width: 100px;
+                }
+
+                p {
+                    font-size: 15px;
+                    margin-left: 5px;
+                    padding-top: 4px;
+
+                    span {
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .generalh2 {
+
+                hr {
+                    width: 100px;
+                    margin-left: 100px;
+                    margin-right: 5px;
+                }
+
+                .square {
+                    width: 11px;
+                    height: 11px;
+                }
+
+                .orange {
+                    width: 11px;
+                    height: 11px;
+                }
+            }
+        }
+
+        p {
+            font-size: 38px;
+            width: 450px;
+            height: 100px;
+
+            .text1 {
+                font-size: 38px;
+            }
+
+            .text2 {
+                font-size: 38px;
+            }
+        }
+
+        .cards {
+
+            .card1 {
+                margin-top: 60px;
+                width: 290px;
+                height: 160px;
+                margin-left: 30px;
+
+                .icon1 {
+                    width: 75px;
+                    height: 75px;
+                    font-size: 55px;
+                    left: 110px;
+
+                    img {
+                        padding-bottom: 5px;
+                    }
+                }
+
+                .text2 {
+                    padding-left: 30px;
+                    padding-top: 45px;
+                }
+
+                .stars {
+                    margin-top: 70px;
+                    margin-left: 73px;
+                }
+
+                .text3 {
+                    font-size: 8px;
+                    width: 250px;
+                    padding-top: 65px;
+                }
+            }
+
+            .card2 {
+                margin-top: 59px;
+                width: 290px;
+                height: 160px;
+                margin-left: 50px;
+
+                .icon1 {
+                    width: 75px;
+                    height: 75px;
+                    font-size: 55px;
+                    left: 110px;
+
+                    img {
+                        padding-bottom: 5px;
+                    }
+                }
+
+                .text2 {
+                    padding-left: 30px;
+                    padding-top: 45px;
+                }
+
+                .stars {
+                    margin-top: 70px;
+                    margin-left: 73px;
+                }
+
+                .text3 {
+                    font-size: 8px;
+                    width: 250px;
+                    padding-top: 65px;
+                }
+            }
+
+            .card3 {
+                margin-top: -20px;
+                margin-bottom: 30px;
+                width: 290px;
+                height: 160px;
+                margin-left: 200px;
+
+                .icon1 {
+                    width: 75px;
+                    height: 75px;
+                    font-size: 55px;
+                    left: 110px;
+
+                    img {
+                        padding-bottom: 5px;
+                    }
+                }
+
+                .text2 {
+                    padding-left: 30px;
+                    padding-top: 45px;
+                }
+
+                .stars {
+                    margin-top: 70px;
+                    margin-left: 73px;
+                }
+
+                .text3 {
+                    font-size: 8px;
+                    width: 250px;
+                    padding-top: 65px;
+                }
+            }
+        }
+    }
+
+    .six {
+
+        .texts6 {
+            margin-left: 117px;
+
+            hr {
+                width: 155px;
+            }
+
+        }
+
+        p {
+            font-size: 45px;
+            margin-left: 90px;
+            width: 450px;
+
+            span {
+                font-size: 45px;
+                height: 20px;
+            }
+        }
+
+        .desk1 {
+            width: 660px;
+            height: 70px;
+            margin-left: 10px;
+            margin-top: 40px;
+
+            div {
+                width: 600px;
+                height: 10px;
+                font-size: 15px;
+                padding-top: 19px;
+                padding-left: 20px;
+            }
+
+            img {
+                width: 25px;
+                height: 14px;
+                margin-left: 0;
+                margin-top: 20px;
+            }
+        }
+
+        .text5 {
+            font-size: 14px;
+            width: 645px;
+            margin-left: 28px;
+            margin-top: 10px;
+        }
+
+        .desk2 {
+            width: 660px;
+            height: 70px;
+            margin-left: 10px;
+
+            div {
+                width: 600px;
+                height: 10px;
+                font-size: 15px;
+                padding-top: 19px;
+                padding-left: 20px;
+            }
+
+            img {
+                width: 25px;
+                height: 14px;
+                margin-left: 0;
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .seven {
+
+        .text7 {
+
+            .general-hr {
+                margin-left: 450px;
+            }
+
+            .text1 {
+                width: 600px;
+                font-size: 48px;
+                height: 120px;
+
+                span {
+                    font-size: 48px;
+                }
+            }
+
+            .text2 {
+                width: 550px;
+                height: 65px;
+                font-size: 13px;
+            }
+
+            .name {
+                width: 560px;
+                font-size: 13px;
+            }
+
+            .email {
+                width: 560px;
+                font-size: 13px;
+            }
+
+            .message {
+                width: 560px;
+                font-size: 13px;
+            }
+        }
+
+        .photo {
+            margin-top: 40px;
+
+            img {
+                width: 600px;
+            }
+        }
+    }
+
+    footer {
+
+        .general-footer {
+
+            .first{
+
+                img{
+                    width: 400px;
+                }
+
+                p{
+                    width: 398px;
+                    font-size: 15px;
+                    margin-left: 7px;
+                }
+
+                a{
+                    margin-left: 7px;
+
+                    i{
+                        width: 45px;
+                        height: 45px;
+                        padding-left: 15px;
+                        padding-top: 15px;
+                    }
+                }
+            }
+
+            .second {
+                padding-left: 30px;
+
+                .informs{
+                    padding-top: 5px;
+                }
+            }
+
+            .third{
+
+                .informs{
+                    padding-top: 5px;
+                }
+            }
+
+            .fourth {
+                padding-left: 30px;
+            }
+        }
+
+        .leftp{
+            margin-left: 120px;
+        }
+        .rightp {
+            margin-top: 20px;
+
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 644px) {
+
+    .container {
+        max-width: 600px;
+    }
+
+    .general-nav {
+
+
+        .burger {
+            margin-left: 3px;
+            width: 70px;
+        }
+
+        img {
+            width: 195px;
+            margin-left: 180px;
+            padding-top: 10px;
+        }
+
+        .but1 {
+            margin-left: 2px;
+        }
+    }
+
+    .one {
+
+        .firstim {
+            max-width: 644px;
+        }
+
+        .texts {
+            margin-left: 120px;
+
+            .text1 {
+
+                font-size: 16px;
+                width: 1000px;
+                padding-right: 650px;
+            }
+
+            .text2 {
+                font-size: 35px;
+                width: 400px;
+                height: 70px;
+            }
+
+            hr {
+                width: 285px;
+                margin-left: 90px;
+            }
+
+            .text3 {
+                font-size: 12px;
+                width: 375px;
+            }
+
+            .but1 {
+                width: 150px;
+                height: 40px;
+                margin-left: 25px;
+                font-size: 13px;
+                margin-top: 40px;
+            }
+
+            .but2 {
+                width: 150px;
+                height: 40px;
+                font-size: 13px;
+            }
+        }
+    }
+
+    .two {
+
+        .photo {
+
+            .secondim {
+                width: 400px;
+                margin-left: 10px;
+            }
+
+            .thirdim {
+                width: 350px;
+                margin-left: 220px;
+                margin-top: 200px;
+            }
+        }
+
+        .texts2 {
+            margin-top: 600px;
+
+            .general-two {
+                margin-left: 220px;
+            }
+
+            .text2 {
+                font-size: 38px;
+
+                span {
+                    font-size: 38px;
+                }
+            }
+
+            .text3 {
+                width: 410px;
+                font-size: 15px;
+            }
+
+            .text4 {
+                width: 410px;
+                font-size: 15px;
+            }
+        }
+    }
+
+    .three {
+
+        .texts3 {
+
+            .general-three {
+                margin-left: 220px;
+            }
+
+            .text2 {
+                font-size: 38px;
+
+                span {
+                    font-size: 38px;
+                }
+            }
+
+            .text3 {
+                width: 360px;
+                font-size: 13px;
+            }
+        }
+
+        .frames {
+
+            .card12 {
+                display: flex;
+                flex-wrap: wrap;
+                margin-left: 70px;
+
+                .card1{
+                    margin-left: 70px;
+                }
+
+                .card2 {
+                    margin-top: 60px;
+                    margin-left: 70px;
+                }
+            }
+
+            .card34 {
+                display: flex;
+                flex-wrap: wrap;
+                margin-left: 50px;
+
+                .card3{
+                    margin-left: 90px;
+                }
+
+                .card4 {
+                    margin-top: 60px;
+                    margin-left: 90px;
+
+                    .text1{
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .four {
+
+        .general-four {
+
+            .texts4 {
+                margin-left: 70px;
+
+                hr {
+                    width: 155px;
+                }
+            }
+
+            p {
+                font-size: 38px;
+                margin-left: 70px;
+
+                span {
+                    font-size: 38px;
+                    height: 20px;
+                }
+            }
+
+            .buts {
+                margin-left: 180px;
+                display: flex;
+                flex-direction: column;
+
+                .but1 {
+                    margin-bottom: 20px;
+                    margin-left: 70px;
+                }
+
+                .but2 {
+                    margin-bottom: 20px;
+                    margin-left: 61px;
+                }
+
+                .but3 {
+                    margin-bottom: 20px;
+                    margin-left: 31px;
+                }
+
+                .but4 {
+                    margin-bottom: 20px;
+                }
+
+                .but5 {
+                    margin-bottom: 50px;
+                    margin-left: 70px;
+                }
+            }
+
+            .photo {
+
+                .img1 {
+                    width: 170px;
+                    margin-left: -3px;
+                }
+
+                .img2 {
+                    width: 170px;
+                    margin-top: 30px;
+                    margin-left: 5px;
+                }
+
+                .img3 {
+                    width: 170px;
+                    margin-left: 5px;
+                }
+            }
+        }
+
+
+    }
+
+    .five {
+
+        .general-hr {
+
+            .generalh1 {
+
+                hr {
+                    width: 80px;
+                }
+
+                p {
+                    font-size: 13px;
+                    margin-left: 5px;
+                    padding-top: 3px;
+
+                    span {
+                        font-size: 13px;
+                    }
+                }
+            }
+
+            .generalh2 {
+
+                hr {
+                    width: 100px;
+                    margin-left: 90px;
+                    margin-right: 5px;
+                }
+
+                .square {
+                    width: 11px;
+                    height: 11px;
+                }
+
+                .orange {
+                    width: 11px;
+                    height: 11px;
+                }
+            }
+        }
+
+        p {
+            font-size: 38px;
+            width: 450px;
+            height: 100px;
+
+            .text1 {
+                font-size: 38px;
+            }
+
+            .text2 {
+                font-size: 38px;
+            }
+        }
+
+        .cards {
+
+            .card1 {
+                margin-top: 60px;
+                width: 290px;
+                height: 160px;
+                margin-left: 150px;
+
+                .icon1 {
+                    width: 75px;
+                    height: 75px;
+                    font-size: 55px;
+                    left: 110px;
+
+                    img {
+                        padding-bottom: 5px;
+                    }
+                }
+
+                .text2 {
+                    padding-left: 30px;
+                    padding-top: 45px;
+                }
+
+                .stars {
+                    margin-top: 70px;
+                    margin-left: 73px;
+                }
+
+                .text3 {
+                    font-size: 8px;
+                    width: 250px;
+                    padding-top: 65px;
+                }
+            }
+
+            .card2 {
+                margin-top: -20px;
+                width: 290px;
+                height: 160px;
+                margin-left: 150px;
+
+                .icon1 {
+                    width: 75px;
+                    height: 75px;
+                    font-size: 55px;
+                    left: 110px;
+
+                    img {
+                        padding-bottom: 5px;
+                    }
+                }
+
+                .text2 {
+                    padding-left: 30px;
+                    padding-top: 45px;
+                }
+
+                .stars {
+                    margin-top: 70px;
+                    margin-left: 73px;
+                }
+
+                .text3 {
+                    font-size: 8px;
+                    width: 250px;
+                    padding-top: 65px;
+                }
+            }
+
+            .card3 {
+                margin-top: 80px;
+                margin-bottom: 30px;
+                width: 290px;
+                height: 160px;
+                margin-left: 150px;
+
+                .icon1 {
+                    width: 75px;
+                    height: 75px;
+                    font-size: 55px;
+                    left: 110px;
+
+                    img {
+                        padding-bottom: 5px;
+                    }
+                }
+
+                .text2 {
+                    padding-left: 30px;
+                    padding-top: 45px;
+                }
+
+                .stars {
+                    margin-top: 70px;
+                    margin-left: 73px;
+                }
+
+                .text3 {
+                    font-size: 8px;
+                    width: 250px;
+                    padding-top: 65px;
+                }
+            }
+        }
+    }
+
+    .six {
+
+        .texts6 {
+            margin-left: 90px;
+
+            hr {
+                width: 155px;
+            }
+
+        }
+
+        p {
+            font-size: 38px;
+            margin-left: 55px;
+            width: 450px;
+
+            span {
+                font-size: 38px;
+                height: 20px;
+            }
+        }
+
+        .desk1 {
+            width: 560px;
+            height: 70px;
+            margin-left: 10px;
+            margin-top: 40px;
+
+            div {
+                width: 520px;
+                height: 10px;
+                font-size: 13px;
+                padding-top: 20px;
+                padding-left: 20px;
+            }
+
+            img {
+                width: 25px;
+                height: 14px;
+                margin-left: 0;
+                margin-top: 20px;
+            }
+        }
+
+        .text5 {
+            font-size: 13px;
+            width: 545px;
+            margin-left: 28px;
+            margin-top: 10px;
+        }
+
+        .desk2 {
+            width: 560px;
+            height: 70px;
+            margin-left: 10px;
+
+            div {
+                width: 520px;
+                height: 10px;
+                font-size: 13px;
+                padding-top: 20px;
+                padding-left: 20px;
+            }
+
+            img {
+                width: 25px;
+                height: 14px;
+                margin-left: 0;
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .seven {
+
+        .text7 {
+
+            .general-hr {
+                margin-left: 330px;
+            }
+
+            .text1 {
+                width: 500px;
+                font-size: 38px;
+                height: 90px;
+
+                span {
+                    font-size: 38px;
+                }
+            }
+
+            .text2 {
+                width: 430px;
+                height: 55px;
+                font-size: 13px;
+            }
+
+            .name {
+                width: 430px;
+                font-size: 13px;
+            }
+
+            .email {
+                width: 430px;
+                font-size: 13px;
+            }
+
+            .message {
+                width: 430px;
+                font-size: 13px;
+            }
+        }
+
+        .photo {
+            margin-top: 40px;
+
+            img {
+                width: 530px;
+            }
+        }
+    }
+
+    footer {
+
+        .general-footer {
+
+            .first{
+
+                img{
+                    width: 300px;
+                }
+
+                p{
+                    width: 300px;
+                    font-size: 13px;
+                    margin-left: 7px;
+                }
+
+                a{
+                    margin-left: 7px;
+
+                    i{
+                        width: 45px;
+                        height: 45px;
+                        padding-left: 15px;
+                        padding-top: 15px;
+                    }
+                }
+            }
+
+            .second {
+                padding-left: 30px;
+
+                .informs{
+                    padding-top: 15px;
+                }
+            }
+
+            .third{
+
+                .informs{
+                    padding-top: 15px;
+                }
+            }
+
+            .fourth {
+                padding-left: 30px;
+            }
+        }
+
+        .leftp{
+            margin-left: 70px;
+        }
+        .rightp {
+            margin-top: 20px;
+
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
 @media only screen and (max-width:576px) {
 
     .container {
@@ -143,6 +2005,10 @@
                 flex-wrap: wrap;
                 margin-left: 90px;
 
+                .card1{
+                    margin-left: 2px;
+                }
+
                 .card2 {
                     margin-top: 70px;
                     margin-left: 0;
@@ -154,8 +2020,13 @@
                 flex-wrap: wrap;
                 margin-left: 70px;
 
+                .card3{
+                    margin-left: 19px;
+                }
+
                 .card4 {
                     margin-top: 70px;
+                    margin-left: 20px;
                 }
             }
         }
@@ -531,6 +2402,10 @@
             }
         }
 
+        .leftp{
+            margin-left: 40px;
+        }
+
         .rightp {
             margin-top: 15px;
 
@@ -540,3 +2415,4 @@
         }
     }
 }
+
